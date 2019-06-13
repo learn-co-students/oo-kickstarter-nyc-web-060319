@@ -1,4 +1,4 @@
-# Object Oriented Kickstarter
+<!-- # Object Oriented Kickstarter
 
 ## Objectives
 
@@ -56,7 +56,7 @@ But... do you see the problem? Both sides of this relationship, backer and
 project, are keeping track of each other, and to maintain consistent data,
 if one side is updated, the other side should be as well.
 
-- Whenever `back_project()` is called to update `@backed_projects`, the project _should alsoupdate its `@backers` list_.
+- Whenever `back_project()` is called to update `@backed_projects`, the project _should alsoupdate its `@backers` list_. -->
 
 - Similarly, whenever `add_backer()` is called to update `@backers`, the backer _should also update its `@backed_projects` list_.
 
